@@ -1,0 +1,693 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css7.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+    <title>T07 CodeAcademy</title>
+  </head>
+  <body>
+
+          <div id="inicio" class="indice">
+              <h6 >Indice CSS</h6>
+            <ul class="acorh">
+                <li><a href="#disf">2)Display - Flex</a>
+                <li><a href="#inline">3)Inline-Flex</a>
+                <li><a href="#justify">4) Justify-content</a>
+                <li><a href="#aling">5) Align-items</a>
+                <li><a href="#Grow">6) Flex-grow</li></a>
+                <li><a href="#shrink">7) Flex-shrink</a>
+                <li><a href="#basis">8) Flex-basis</a>
+                <li><a href="#Flex">9) Flex abreviado a una linea css - grow, shrink and basis</a>
+                <li><a href="#wrap">10) Flex-wrap</a>
+                <li><a href="#content">11) Align Content</a>
+                <li><a href="#Direction">12) Flex Direction</li></a>
+                <li><a href="#Flow">13) Flex Flow abreviado - wrap and direction</a>    
+                <li><a href="#Flexboxes">14) Nested Flexboxes</li></a>
+                <li><a href="#flexbox">15) Review: Flexbox</a>   
+                <li><a href="#apli"> Aplicacion ejemplo</a>
+                </ul>
+          </div>
+          
+
+
+
+          <h1 class="tittle" >Display</h1>
+          <h2 id="disf">Display: Flex</h2>
+          <div class='container' id='flex'>
+            <div class='box'>
+              <h2>1</h2>
+            </div>
+            <div class='box'>
+              <h2>2</h2>
+            </div>
+            <div class='box'>
+              <h2>3</h2>
+            </div>
+          </div>
+          <h1>Display: Block</h1>
+          <div class='container' id='block'>
+            <div class='box'>
+              <h2>1</h2>
+            </div>
+            <div class='box'>
+              <h2>2</h2>
+            </div>
+            <div class='box'>
+              <h2>3</h2>
+            </div>
+          </div>
+  
+          
+
+
+          <h1 id="inline" class="tittle">Inline-flex</h1>
+         
+          <div class="resguardo">
+          <div  class='container1'>
+            <div class='box1'>
+              <h3>1</h3>
+            </div>
+            <div class='box1'>
+              <h3>2</h3>
+            </div>
+            <div class='box1'>
+              <h3>3</h3>
+            </div>
+          </div>
+          <div class='container1'>
+            <div class='box1'>
+              <h3>1</h3>
+            </div>
+            <div class='box1'>
+              <h3>2</h3>
+            </div>
+            <div class='box1'>
+              <h3>3</h3>
+            </div>
+          </div>
+        </div>
+
+
+
+
+          <h1 class="tittle" >Justify-content</h1>
+<li id="return"><a href="#inicio">Volver al inicio</li></a>
+          <h1>Flex Start</h1>
+  <div id="justify" class='container2' id='flexstart'>
+    <div class='box2'></div>
+    <div class='box2'></div>
+    <div class='box2'></div>
+  </div>
+  <h1>Flex End</h1>
+  <div class='container2' id='flexend'>
+    <div class='box2'></div>
+    <div class='box2'></div>
+    <div class='box2'></div>
+  </div>
+  <h1>Center</h1>
+  <div class='container2' id='center'>
+    <div class='box2'></div>
+    <div class='box2'></div>
+    <div class='box2'></div>
+  </div>
+  <h1>Space Around</h1>
+  <div class='container2' id='spacearound'>
+    <div class='box2'></div>
+    <div class='box2'></div>
+    <div class='box2'></div>
+  </div>
+  <h1>Space Between</h1>
+  <div class='container2' id='spacebetween'>
+    <div class='box2'></div>
+    <div class='box2'></div>
+    <div class='box2'></div>
+  </div>
+
+
+
+
+  <h1 id="aling" class="tittle" >Align-items</h1>
+  <li id="return"><a href="#inicio">Volver al inicio</li></a>
+
+  <h1 >Flex Start</h1>
+  <div class='container3' id='flexstart'>
+    <div class='left'></div>
+    <div class='center'></div>
+    <div class='right'></div>
+  </div>
+  <h1>Flex End</h1>
+  <div class='container3' id='flexend'>
+    <div class='left'></div>
+    <div class='center'></div>
+    <div class='right'></div>
+  </div>
+  <h1>Center</h1>
+  <div class='container3' id='center'>
+    <div class='left'></div>
+    <div class='center'></div>
+    <div class='right'></div>
+  </div>
+  <h1>Baseline</h1>
+  <div class='container3' id='baseline'>
+    <div class='left'></div>
+    <div class='center'></div>
+    <div class='right'></div>
+  </div>
+  <h1>Stretch</h1>
+  <div class='container3' id='stretch'>
+    <div class='left'></div>
+    <div class='center'></div>
+    <div class='right'></div>
+  </div>
+       
+
+
+
+  <h1 id="Grow" class="tittle" > Flex-grow</h1>
+  <li id="return"><a href="#inicio">Volver al inicio</li></a>
+
+  <h1>Step 1</h1>
+  <div id='top'>
+    <div class='top side'>
+      <h2>1</h2>
+    </div>
+    <div class='top center'>
+      <h2>2</h2>
+    </div>
+    <div class='top side'>
+      <h2>3</h2>
+    </div>
+  </div>
+  <h1>Step 2</h1>
+  <div id='middle'>
+    <div class='middle side'>
+      <h2>1</h2>
+    </div>
+    <div class='middle center'>
+      <h2>2</h2>
+    </div>
+    <div class='middle side'>
+      <h2>3</h2>
+    </div>
+  </div>
+  <h1>Step 3</h1>
+  <div id='bottom'>
+    <div class='bottom side'>
+      <h2>1</h2>
+    </div>
+    <div class='bottom center'>
+      <h2>2</h2>
+    </div>
+    <div class='bottom side'>
+      <h2>3</h2>
+    </div>
+  </div>
+
+
+  <h1 id="shrink" class="tittle" > Flex-shrink</h1>
+  <li id="return"><a href="#inicio">Volver al inicio</li></a>
+
+   <h1>Step 1</h1>
+  <div id='top'>
+    <div class='top side'>
+      <h2>1</h2>
+    </div>
+    <div class='top center'>
+      <h2>2</h2>
+    </div>
+    <div class='top side'>
+      <h2>3</h2>
+    </div>
+  </div>
+  <h1>Step 2</h1>
+  <div id='middle'>
+    <div class='middle side'>
+      <h2>1</h2>
+    </div>
+    <div class='middle center'>
+      <h2>2</h2>
+    </div>
+    <div class='middle side'>
+      <h2>3</h2>
+    </div>
+  </div>
+  <h1>Step 3</h1>
+  <div id='bottom'>
+    <div class='bottom side'>
+      <h2>1</h2>
+    </div>
+    <div class='bottom center'>
+      <h2>2</h2>
+    </div>
+    <div class='bottom side'>
+      <h2>3</h2>
+    </div>
+  </div>
+
+
+  <h1 id="basis" class="tittle" > Flex-basis</h1>
+  <li id="return"><a href="#inicio">Volver al inicio</li></a>
+
+  <h1>Grows</h1>
+  <div id='grows'>
+    <div class='grow side'>
+      <h2>1</h2>
+    </div>
+    <div class='grow center'>
+      <h2>2</h2>
+    </div>
+    <div class='grow side'>
+      <h2>3</h2>
+    </div>
+  </div>
+  <h1>Shrinks</h1>
+  <div id='shrinks'>
+    <div class='shrink side'>
+      <h2>1</h2>
+    </div>
+    <div class='shrink center'>
+      <h2>2</h2>
+    </div>
+    <div class='shrink side'>
+      <h2>3</h2>
+    </div>
+  </div>
+
+
+
+
+  <h1 id="Flex" class="tittle"> Flex Abreviado</h1>
+  <li id="return"><a href="#inicio">Volver al inicio</li></a>
+
+  <h1>Top</h1>
+  <div class='container4' id='top'>
+    <div class='side'></div>
+    <div class='center'></div>
+    <div class='side'></div>
+  </div>
+  <h1>Bottom</h1>
+  <div class='container4' id='bottom'>
+    <div class='side'></div>
+    <div class='center'></div>
+    <div class='side'></div>
+  </div>
+
+
+
+  
+  <h1 id="wrap" class="tittle"> Flex Wrap</h1>
+  <li id="return"><a href="#inicio">Volver al inicio</li></a>
+
+  <h1>Flex-Wrap: Wrap</h1>
+  <div class='container5' id='wrap'>
+    <div class='box4'>
+      <h3>1</h3>
+    </div>
+    <div class='box4'>
+      <h3>2</h3>
+    </div>
+    <div class='box4'>
+      <h3>3</h3>
+    </div>
+    <div class='box4'>
+      <h3>4</h3>
+    </div>
+    <div class='box4'>
+      <h3>5</h3>
+    </div>
+  </div>
+  <h1>Flex-Wrap: No-Wrap</h1>
+  <div class='container5' id='nowrap'>
+    <div class='box4'>
+      <h3>1</h3>
+    </div>
+    <div class='box4'>
+      <h3>2</h3>
+    </div>
+    <div class='box4'>
+      <h3>3</h3>
+    </div>
+    <div class='box4'>
+      <h3>4</h3>
+    </div>
+    <div class='box4'>
+      <h3>5</h3>
+    </div>
+  </div>
+  <h1>Flex-Wrap: Wrap-Reverse</h1>
+  <div class='container5' id='reverse'>
+    <div class='box4'>
+      <h3>1</h3>
+    </div>
+    <div class='box4'>
+      <h3>2</h3>
+    </div>
+    <div class='box4'>
+      <h3>3</h3>
+    </div>
+    <div class='box4'>
+      <h3>4</h3>
+    </div>
+    <div class='box4'>
+      <h3>5</h3>
+    </div>
+  </div>
+
+  
+    
+  <h1 id="content" class="tittle"> Align Content</h1>
+  <li id="return"><a href="#inicio">Volver al inicio</li></a>
+  
+  <h1>Flex Start</h1>
+  <div class='container6' id='flexstart'>
+    <div class='left'></div>
+    <div class='center'></div>
+    <div class='right'></div>
+  </div>
+  <h1>Flex End</h1>
+  <div class='container6' id='flexend'>
+    <div class='left'></div>
+    <div class='center'></div>
+    <div class='right'></div>
+  </div>
+  <h1>Center</h1>
+  <div class='container6' id='center'>
+    <div class='left'></div>
+    <div class='center'></div>
+    <div class='right'></div>
+  </div>
+  <h1>Space Between</h1>
+  <div class='container6' id='between'>
+    <div class='left'></div>
+    <div class='center'></div>
+    <div class='right'></div>
+  </div>
+  <h1>Space Around</h1>
+  <div class='container6' id='around'>
+    <div class='left'></div>
+    <div class='center'></div>
+    <div class='right'></div>
+  </div>
+  <h1>Stretch</h1>
+  <div class='container6' id='stretch'>
+    <div class='left'></div>
+    <div class='center'></div>
+    <div class='right'></div>
+  </div>
+
+
+
+  <h1 id="Direction" class="tittle"> Flex Direction</h1>
+  <li id="return"><a href="#inicio">Volver al inicio</li></a>
+
+<h1>Flex-Direction: Row</h1>
+  <div class='container7' id='row'>
+    <div class='box5'>
+      <h2>1</h2>
+    </div>
+    <div class='box5'>
+      <h2>2</h2>
+    </div>
+    <div class='box5'>
+      <h2>3</h2>
+    </div>
+    <div class='box5'>
+      <h2>4</h2>
+    </div>
+    <div class='box5'>
+      <h2>5</h2>
+    </div>
+  </div>
+  <h1>Flex-Direction: Row-Reverse</h1>
+  <div class='container7' id='row-reverse'>
+    <div class='box5'>
+      <h2>1</h2>
+    </div>
+    <div class='box5'>
+      <h2>2</h2>
+    </div>
+    <div class='box5'>
+      <h2>3</h2>
+    </div>
+    <div class='box5'>
+      <h2>4</h2>
+    </div>
+    <div class='box5'>
+      <h2>5</h2>
+    </div>
+  </div>
+  <h1>Flex-Direction: Column</h1>
+  <div class='container7' id='column'>
+    <div class='box5'>
+      <h2>1</h2>
+    </div>
+    <div class='box5'>
+      <h2>2</h2>
+    </div>
+    <div class='box5'>
+      <h2>3</h2>
+    </div>
+    <div class='box5'>
+      <h2>4</h2>
+    </div>
+    <div class='box5'>
+      <h2>5</h2>
+    </div>
+  </div>
+  <h1>Flex-Direction: Column-Reverse</h1>
+  <div class='container7' id='column-reverse'>
+    <div class='box5'>
+      <h2>1</h2>
+    </div>
+    <div class='box5'>
+      <h2>2</h2>
+    </div>
+    <div class='box5'>
+      <h2>3</h2>
+    </div>
+    <div class='box5'>
+      <h2>4</h2>
+    </div>
+    <div class='box5'>
+      <h2>5</h2>
+    </div>
+  </div>
+
+
+  <h1 id="Flow" class="tittle"> Flex Flow</h1>
+  <li id="return"><a href="#inicio">Volver al inicio</li></a>
+
+  <h1>Flex-Direction: Row</h1>
+  <div class='container8' id='row1'>
+    <div class='box6'>
+      <h2>1</h2>
+    </div>
+    <div class='box6'>
+      <h2>2</h2>
+    </div>
+    <div class='box6'>
+      <h2>3</h2>
+    </div>
+    <div class='box6'>
+      <h2>4</h2>
+    </div>
+    <div class='box6'>
+      <h2>5</h2>
+    </div>
+  </div>
+  <h1>Flex-Direction: Row-Reverse</h1>
+  <div class='container8' id='row-reverse1'>
+    <div class='box6'>
+      <h2>1</h2>
+    </div>
+    <div class='box6'>
+      <h2>2</h2>
+    </div>
+    <div class='box6'>
+      <h2>3</h2>
+    </div>
+    <div class='box6'>
+      <h2>4</h2>
+    </div>
+    <div class='box6'>
+      <h2>5</h2>
+    </div>
+  </div>
+  <h1>Flex-Direction: Column</h1>
+  <div class='container8' id='column1'>
+    <div class='box6'>
+      <h2>1</h2>
+    </div>
+    <div class='box6'>
+      <h2>2</h2>
+    </div>
+    <div class='box6'>
+      <h2>3</h2>
+    </div>
+    <div class='box6'>
+      <h2>4</h2>
+    </div>
+    <div class='box6'>
+      <h2>5</h2>
+    </div>
+  </div>
+  <h1>Flex-Direction: Column-Reverse</h1>
+  <div class='container8' id='column-reverse1'>
+    <div class='box6'>
+      <h2>1</h2>
+    </div>
+    <div class='box6'>
+      <h2>2</h2>
+    </div>
+    <div class='box6'>
+      <h2>3</h2>
+    </div>
+    <div class='box6'>
+      <h2>4</h2>
+    </div>
+    <div class='box6'>
+      <h2>5</h2>
+    </div>
+  </div>
+
+
+  <h1 id="Flexboxes" class="tittle">  Nested Flexboxes</h1>
+  <li id="return"><a href="#inicio">Volver al inicio</li></a>
+ 
+
+  <div class='main'>
+    <div class='container9'>
+      <div class='child'>
+        <h2>Child 1</h2>
+      </div>
+      <div class='child'>
+        <h2>Child 2</h2>
+      </div>
+      <div class='child'>
+        <h2>Child 3</h2>
+      </div>
+    </div>
+    <div class='container9'></div>
+  </div>
+
+
+  <h1 id="flexbox" class="tittle">    Review: Flexbox</h1>
+  <li id="return"><a href="#inicio">Volver al inicio</li></a>
+
+  
+  <div class='container10' id='row1'>
+    <div class='box10'>
+      <h2>display: flex <br><br> cambia un elemento a un contenedor de nivel de bloque con elementos flexibles dentro de él.</h2>
+    </div>
+    <div class='box10'>
+      <h2>display: inline-flex <br><br> permite que varios contenedores flexibles aparezcan alineados entre sí.</h2>
+    </div>
+    <div class='box10'>
+      <h2> justify-content <br><br> se utiliza para espaciar elementos a lo largo del eje principal.</h2>
+    </div>
+    <div class='box10'>
+      <h2> align-items <br><br> se utiliza para espaciar elementos a lo largo del eje transversal.</h2>
+    </div>
+    <div class='box10'>
+      <h2> flex-grow <br><br> se utiliza para especificar cuánto espacio (y en qué proporciones) absorben los elementos flexibles a lo largo del eje principal.</h2>
+    </div>
+    <div class='box10'>
+        <h2>flex-shrink <br><br> se utiliza para especificar cuánto se encogen los elementos flexibles y en qué proporciones a lo largo del eje principal.</h2>
+      </div>
+      <div class='box10'>
+        <h2>flex-basis <br><br> se utiliza para especificar el tamaño inicial de un elemento con estilo flex-growy/o flex-shrink.</h2>
+      </div>
+      <div class='box10'>
+        <h2>flex <br><br> se utiliza para especificar flex-grow, flex-shrinky flex-basisen una declaración.</h2>
+      </div>
+      <div class='box10'>
+        <h2>flex-wrap <br><br> especifica que los elementos deben desplazarse a lo largo del eje transversal si el contenedor flexible no es lo suficientemente grande.</h2>
+      </div>
+      <div class='box10'>
+        <h2>align-content <br><br>se utiliza para espaciar filas a lo largo del eje transversal.</h2>
+      </div>
+      <div class='box10'>
+        <h2>flex-direction<br><br> se utiliza para especificar los ejes principal y transversal.</h2>
+      </div>
+      <div class='box10'>
+        <h2>flex-flow<br><br> se utiliza para especificar flex-wrapy flex-directionen una declaración.</h2>
+      </div>
+      <div class='box10'>
+        <h2>Los contenedores flexibles<br><br> se pueden anidar unos dentro de otros declarando display: flexo display: inline-flexpara hijos de contenedores flexibles.</h2>
+      </div>
+  </div>
+
+
+  
+  <h1 id="apli" class="tittle">    Aplicacion</h1>
+  <li id="return"><a href="#inicio">Volver al inicio</li></a>
+
+  <div class="header">
+    <div class="container11">
+      <h1>Headlines.</h1>
+      <ul>
+        <li><a href="3">About</a></li>
+        <li><a href="#expertise">Our Services</a></li>
+        <li><a href="3">Our Team</a></li>
+        <li><a href="#footer">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="jumbotron">
+    <div class="container11">
+      <h2>We <span>collect and curate</span>
+articles, opinions, and images
+from around the world.</h2>
+    </div>
+  </div>
+  <div class="banner">
+    <div class="container11">
+      <h2>The Bottom Line.</h2>
+      <p>We deliver the news that is relevant to you.</p>
+    </div>
+  </div>
+  <div class="container11">
+    <h2 id="expertise">Our Expertise.</h2>
+    <div class="main2">
+      <div class="spacer">
+        <div class="cards">
+          <div class="col">
+            <img src="https://content.codecademy.com/projects/headlines/p1.jpg">
+            <img src="https://content.codecademy.com/projects/headlines/p6.jpg">
+            <img src="https://content.codecademy.com/projects/headlines/p8.jpg">
+          </div>
+          <div class="col">
+            <img src="https://content.codecademy.com/projects/headlines/p2.jpg">
+            <img src="https://content.codecademy.com/projects/headlines/p5.jpg">
+            <img src="https://content.codecademy.com/projects/headlines/p7.jpg">
+          </div>
+          <div class="col">
+            <img src="https://content.codecademy.com/projects/headlines/p3.jpg">
+            <img src="https://content.codecademy.com/projects/headlines/p4.jpg">
+            <img src="https://content.codecademy.com/projects/headlines/p9.jpg">
+            <img src="https://content.codecademy.com/projects/headlines/p10.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <h3>Headlines.</h3>
+    <p>1000 7th Avenue</p>
+    <p>New York, NY</p>
+    <p>(484) 192 - 8372</p>
+  </div>
+
+  
+  
+
+
+</body>
+</html>
+
+
+
